@@ -11,8 +11,8 @@ const operation = `
     salesOperation {
       id
       title 
-	  units
-	  isBuy
+      units
+      isBuy
     }
   }
 `;

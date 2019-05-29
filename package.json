@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html"
+    "build": "babel subscription.js -o sub.js",
+	"start": "node sub.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@absinthe/socket": "^0.2.1",
-    "parcel": "^1.12.3",
-    "phoenix": "^1.4.6"
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "phoenix": "^1.4.6",
+    "websocket": "^1.0.28"
   }
 }
